@@ -1,1 +1,19 @@
-
+{
+"timestamp": "2023-06-21T12:30:00Z",
+"description": "Ошибка приложения YFGBIB",
+"severity": "High",
+"steps_to_reproduce": [
+"1. Открыть приложение YFGBIB",
+"2. Ввести данные пользователя",
+"3. Нажать на кнопку 'Войти'",
+"4. Ошибка возникает после ввода пароля"
+],
+"expected_result": "Пользователь успешно входит в приложение",
+"actual_result": "Ошибка авторизации: неправильный пароль",
+"device_info": {
+"device_type": "Смартфон",
+"device_model": "Samsung Galaxy S10",
+"os": "Android 10"
+},
+"app_version": "1.2.3"
+}
